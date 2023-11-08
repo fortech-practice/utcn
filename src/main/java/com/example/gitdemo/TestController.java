@@ -12,7 +12,7 @@ public class TestController {
         return createGreetingMessage();
     }
 
-    private static String createGreetingMessage() {
+    private String createGreetingMessage() {
         return "Hello World";
     }
 }
