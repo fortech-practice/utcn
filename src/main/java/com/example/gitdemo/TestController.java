@@ -13,7 +13,7 @@ public class TestController {
     }
 
     private String createGreetingMessage() {
-        return "Hello World";
+        return "Cucu bau!";
     }
 
 
