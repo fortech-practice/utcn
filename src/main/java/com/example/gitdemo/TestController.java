@@ -15,4 +15,9 @@ public class TestController {
     private String createGreetingMessage() {
         return "Hello World";
     }
+
+
+    public static void start(){
+        System.out.println("start");
+    }
 }
