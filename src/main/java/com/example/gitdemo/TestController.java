@@ -9,11 +9,17 @@ public class TestController {
 
     @GetMapping("/hello")
     public String test(){
-        return createGreetingMessage();
+        return createGreetingMessage("en");
     }
 
-    private String createGreetingMessage() {
-        return "Cucu bau!";
+    private String createGreetingMessage(String language) {
+        if ("en".equals(language)) {
+            return "Good morning!";
+        }
+        if ("ro".equals(language)) {
+            return "Buna dimineata!";
+        }
+        return "Hello!";
     }
 
 
