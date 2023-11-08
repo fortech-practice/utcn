@@ -11,4 +11,9 @@ public class TestController {
     public String test(){
         return "Hello World";
     }
+
+
+    public static void start(){
+        System.out.println("start");
+    }
 }
