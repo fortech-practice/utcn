@@ -9,6 +9,10 @@ public class TestController {
 
     @GetMapping("/hello")
     public String test(){
+        return createGreetingMessage();
+    }
+
+    private String createGreetingMessage() {
         return "Hello World";
     }
 
